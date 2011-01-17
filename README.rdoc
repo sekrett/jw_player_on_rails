@@ -24,4 +24,5 @@ To check player is working simply add:
     :width => 300, :height => 110) %>
 
 Copyright (c) 2010 LongTail Ad Solutions. All Rights Reserved.
+
 Copyright (c) 2011 Alexander Zubkov, released under the MIT license
