@@ -8,7 +8,7 @@ To install:
 
 To setup:
 
-  rails generate mp3_player
+  rails generate jw_player
 
 This adds <i>player.swf</i> and <i>yt.swf</i> to <i>public/jwplayer/</i> and
 <i>jwplayer.js</i> to <i>public/javascripts/jwplayer.js</i>.
