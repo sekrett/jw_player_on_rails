@@ -21,7 +21,7 @@ In your layout add:
 To check player is working simply add:
 
   <%= jw_player("http://github.com/sekrett/jw_player_on_rails/raw/master/video.mp4",
-    :width => 300, :height => 110) %>
+    :width => 200, :height => 110) %>
 
 Copyright (c) 2010 LongTail Ad Solutions. All Rights Reserved.
 
