@@ -1,1 +1,1 @@
-# JwPlayerOnRails
+module JwPlayerOnRails; end
