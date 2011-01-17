@@ -4,14 +4,15 @@ module JwPlayerOnRails
     @@player_count = 0
 
     # This module contains the view helper <tt>jw_player</tt>
-    def jw_player options
+    def jw_player path, options = {}
       increment_player_count
+
+      options.merge!(flashplayer: "/jwplayer/player.swf", file: path)
       %Q[
 <div id="jwplayer_#{@@player_count}">Loading the player...</div>
 <script type="text/javascript">
   //<![CDATA[
-      jwplayer("jwplayer_#{@@player_count}").setup({flashplayer: "/jwplayer/player.swf", file: "#{options[:path]}", width: #{options[:width]}, height: #{options[:height]}
-    });
+      jwplayer("jwplayer_#{@@player_count}").setup(#{options.to_json});
   //]]>
 </script>
       ].html_safe
