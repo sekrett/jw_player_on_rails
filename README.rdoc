@@ -11,7 +11,7 @@ To setup:
   rails generate jw_player
 
 This adds <i>player.swf</i> and <i>yt.swf</i> to <i>public/jwplayer/</i> and
-<i>jwplayer.js</i> to <i>public/javascripts/jwplayer.js</i>.
+<i>jwplayer.js</i> to <i>public/javascripts/</i>.
 
 In your layout add:
 
